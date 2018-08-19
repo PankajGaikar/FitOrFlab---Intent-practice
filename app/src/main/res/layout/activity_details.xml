@@ -10,8 +10,7 @@
         android:id="@+id/backgroundViewLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/corner_layout"
-        android:backgroundTint="@android:color/holo_blue_light"
+        android:background="@android:color/holo_red_light"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
@@ -38,9 +37,12 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@id/detailImageView"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:layout_marginTop="10dp"
+            android:background="#30000000"
             android:orientation="vertical">
 
             <CheckBox
